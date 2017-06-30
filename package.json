@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_npm",
+  "version": "0.0.1",
+  "description": "Este proyecto es una simple prueba de proyectos NPM, seguido desde PLAZI, el cual contiene las funciones de fibonacci con generador y sin generador",
+  "main": "dist/src/generadores.js",
+  "scripts": {
+    "build": "babel src/generadores.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlitos-motumweb/PruebaNPM.git"
+  },
+  "author": "Carlos Augusto Flores <carlosflores@motumweb.com> (http://motumweb.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlitos-motumweb/PruebaNPM/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
